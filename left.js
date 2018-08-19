@@ -1,0 +1,12 @@
+alert("123");
+$(document).ready(function(){
+	alert("123");
+	$("p.p_left_show").click(function(){
+		alert("123");
+		$("p.p_left_show").attr("class","p_left_hide");
+	});
+	$("p.p_left_hide").click(function(){
+		$("p.p_left_hide").attr("class","p_left_show");
+	});
+});
+alert("233");
