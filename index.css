@@ -1,0 +1,17 @@
+div.div_center_box{
+	position:absolute;
+	left:20px;
+	top:20px;
+    width:640px;
+	color:#ffffff;
+	border:1px solid #ffffff;
+	border-top-left-radius:20px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:20px;
+	transition:transform 0.3s;
+}
+div.div_center_box:hover{
+	transform-origin:50% 50%;
+	transform:scale(0.95,0.95);
+}
