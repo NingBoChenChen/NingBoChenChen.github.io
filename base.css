@@ -26,14 +26,19 @@ div.div_center{
 	width:80%;
 	height:80%;
 }
-span.span_top_logo_wrapper{
+div.div_top_text_wrapper{
 	position:absolute;
-	left:60;
-}
-span.span_top_text_wrapper{
-	position:absolute;
+	left:30;
+	height:50;
 	color:#ffffff;
-	left:150;
+	background:#14191e;
+}
+div.div_top_text_wrapper:hover{
+	position:absolute;
+	left:30;
+	height:50;
+	color:#14191e;
+	background:#ffffff;
 }
 img.img_logo{
 	height:50;
